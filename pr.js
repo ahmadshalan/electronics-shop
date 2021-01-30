@@ -24,7 +24,7 @@ var product = prompt('what product type do you want?');
 
 
 while(product !== 'phone' && product !== 'tv' && product !== 'laptop'){
-   product =prompt('please write valid product ')
+   product =prompt('please write valid product tv , phone or laptop')
 }
 
 
