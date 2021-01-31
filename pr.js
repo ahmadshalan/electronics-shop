@@ -4,6 +4,9 @@ console.log(1+5);
 
 console.log('hello');
 
+
+function welcomeMessage (){
+
 var message = '';
 var age = prompt('what is your age');
 console.log(age);
@@ -14,19 +17,24 @@ if (age>18){
 }else{ message = 'not allowed'
 }
 
-document.write('<h3>' + message + age + '</h3>');
+return document.write('<h3>' + message + age + '</h3>');
+
+}
+
+welcomeMessage();
 
 
 
 
-var product = prompt('what product type do you want?');
+function productType (){
 
+
+var product = prompt('what product type do you want? tv, phone or laptop');
 
 
 while(product !== 'phone' && product !== 'tv' && product !== 'laptop'){
-   product =prompt('please write valid product tv , phone or laptop')
+ product =prompt('please write valid product tv , phone or laptop')
 }
-
 
 
 if (product=== 'phone'){
@@ -44,9 +52,12 @@ for( var i = 0 ; i<imgNum; i++){
 
    console.log(i);
 
-   document.write(product);
+  document.write(product);
 }
+return document.write(product);
 
+}
+productType();
 
 
 

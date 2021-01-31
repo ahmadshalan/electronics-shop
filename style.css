@@ -1,0 +1,46 @@
+*{
+
+    margin: auto;
+}
+
+body h1{
+    
+    background-color:rgba(255, 128, 255, 0.9);
+    margin-left: 610px;
+    margin-right: 610px;
+    
+
+
+
+}
+
+body nav ul li {
+
+display: inline-block;
+padding: 50px;
+background-color: sienna;
+margin-left: 250px;
+
+
+}
+
+footer {
+
+    background-color: slateblue;
+}
+
+
+body header img {
+
+    width: 1400px;
+    height: 200px;
+}
+
+p {
+    
+background-color: rosybrown;
+    }
+
+
+
+
