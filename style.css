@@ -8,13 +8,23 @@ body h1{
     background-color:rgba(255, 128, 255, 0.9);
     margin-left: 610px;
     margin-right: 610px;
+    color: blueviolet;
     
 
 
 
 }
 
-body nav ul li {
+
+header h1 {
+
+background-color: yellowgreen;
+color: black;
+margin-left: 600px;
+margin-right: 520px;
+
+}
+body nav ul li  {
 
 display: inline-block;
 padding: 50px;
@@ -29,6 +39,12 @@ footer {
     background-color: slateblue;
 }
 
+a {
+
+    font-style: normal;
+    color: cadetblue;
+    text-decoration: none;
+}
 
 body header img {
 
@@ -39,8 +55,15 @@ body header img {
 p {
     
 background-color: rosybrown;
+color: darkblue;
+font-size: larger;
+float: left;
+
     }
 
 
+html {
 
+    background-color: teal;
+}
 
